@@ -6,13 +6,13 @@ theme: dracula
 # background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 colorSchema: 'dark'
-title: Simplifying Research Workflows with Containers on Supercomputers
+title: 'Simplifying Research Workflows with Containers on Supercomputers'
 info: true
-author: Alan Chapman
+author: 'Alan Chapman'
 presenter: true
 download: false
 # filename of the export file
-exportFilename: slidev-exported
+exportFilename: RCExpo-Containers-2024-10-02
 # export options
 # use export CLI options in camelCase format
 # Learn more: https://sli.dev/guide/exporting.html
@@ -20,9 +20,10 @@ export:
   format: pptx
   timeout: 30000
   dark: false
-  withClicks: false
+  withClicks: true
   withToc: false
-
+#addons: 
+#  - @xterm/xterm
 lineNumbers: true
 # apply unocss classes to the current slide
 class: text-center
