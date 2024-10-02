@@ -6,7 +6,7 @@ theme: dracula
 # background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 colorSchema: 'dark'
-title: Accelerating Research with Containers
+title: Simplifying Research Workflows with Containers on Supercomputers
 info: true
 author: Alan Chapman
 presenter: true
@@ -39,15 +39,17 @@ hideInToc: true
 
 # [Containers]{style="color:white"} 
 
-[Simplifying Research Workflows with Containers on Supercomputers]{style="color:#FFC627"}
+## [Simplifying Research Workflows with Containers on Supercomputers]{style="color:#FFC627"}
 <br>
 <br>
 <br>
+
 [Alan Chapman]{style="color:white"} <br>
-[Systems Analyst]{style="color:white"} <br>
+[HPC Systems Administrator]{style="color:white"} <br>
 [ASU KE Research Computing]{style="color:white"}
 
-<!-- This is a [red text]{style="color:red"} :inline-component{prop="value"}
+<!-- 
+This is a [red text]{style="color:red"} :inline-component{prop="value"}
 
 ::block-component{prop="value"}
 The **default** slot
@@ -352,3 +354,5 @@ layout: center
 ---
 
 # [Discussion / Questions]{style="color:white"}
+
+
