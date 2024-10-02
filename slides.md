@@ -7,7 +7,7 @@ theme: dracula
 # some information about your slides (markdown enabled)
 colorSchema: 'dark'
 title: Accelerating Research with Containers
-info: false
+info: true
 author: Alan Chapman
 presenter: true
 download: false
@@ -34,11 +34,18 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 hideInToc: true
+# layout: two-cols-header
 ---
 
-# Containers
+# [Containers]{style="color:white"} 
 
 [Simplifying Research Workflows with Containers on Supercomputers]{style="color:#FFC627"}
+<br>
+<br>
+<br>
+[Alan Chapman]{style="color:white"} <br>
+[Systems Analyst]{style="color:white"} <br>
+[ASU KE Research Computing]{style="color:white"}
 
 <!-- This is a [red text]{style="color:red"} :inline-component{prop="value"}
 
@@ -51,23 +58,15 @@ The **default** slot
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
----
-layout: two-cols
-layoutClass: gap-8
-hideInToc: true
----
 
-# Agenda
 
-::right::
 
-<Toc minDepth="1" maxDepth="2"></Toc>
 
 ---
 layout: full
 ---
 
-# What are Containers?
+# [What are Containers?]{style="color:white"}
 
 
 <br>
@@ -87,7 +86,7 @@ level: 1
 layout: two-cols-header
 ---
 
-# Why are containers important in Research?
+# [Why are containers important in Research?]{style="color:white"}
 
 ::left::
 **Reproducibility** <br> 
@@ -170,7 +169,7 @@ Citations:
 level: 1 
 ---
 
-# Containers vs Virtual Machines
+# [Containers vs Virtual Machines]{style="color:white"}
 
 ![](./images/containers-vs-virtual-machines.jpg){width=800px lazy}
 
@@ -185,7 +184,7 @@ processes while sharing the same OS kernel.
 level: 1
 ---
 
-# Working with Containers
+# [Working with Containers]{style="color:white"}
 
 <br>
 Run a container
@@ -216,7 +215,7 @@ building a container with a definition file, can be done with simple definitions
 layout: full
 ---
 
-# Example Apptainer Definition file
+# [Example Apptainer Definition file]{style="color:white"}
 
 ```shell{1-2|3-18|19-22|23-24}
 Bootstrap: docker
@@ -249,7 +248,7 @@ From: ubuntu:20.04
 layout: full
 ---
 
-# Running a container with a Slurm sbatch script
+# [Running a container with a Slurm sbatch script]{style="color:white"}
 
 <br>
 
@@ -273,7 +272,7 @@ export FASTA_FILE=1m5i_MUT.fasta
 layout: full
 ---
 
-# Sbatch example continued
+# [Slurm Sbatch example continued]{style="color:white"}
 
 <br>
 
@@ -302,7 +301,7 @@ apptainer run --nv \
 layout: full
 ---
 
-# Container registries 
+# [Container registries]{style="color:white"}
 
 <br>
 Container registries are centralized repositories for storing, managing, and distributing container images
@@ -324,7 +323,7 @@ Container registries are centralized repositories for storing, managing, and dis
 layout: center
 ---
 
-# Switching container registry authentication
+# [Switching container registry authentication]{style="color:white"}
 
 ```sh {1-5|16-18|19}
 docauth() {
@@ -352,4 +351,4 @@ docauth
 layout: center
 ---
 
-# Discussion / Questions
+# [Discussion / Questions]{style="color:white"}
